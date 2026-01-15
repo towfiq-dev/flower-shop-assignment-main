@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lato{
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+/* section-01 */
+#section-01{
+  display: flex;
+  padding: 0 100px;
+  padding-top: 80px;
+  gap: 95px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.flower-head h2{
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+}
+.flower-head p{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 27px;
+  margin: 32px 0;
+}
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: auto;
+  padding: 20px 43px;
+  border: none;
+  border-radius: 8px;
+  background-color: #E55473;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.rose img{
+  max-width: 630px;
+}
