@@ -93,4 +93,21 @@ text-align: center;
 .abc img{
   margin-top: 70px;
 }
-
+/* section-03 */
+#service{
+  margin: 120px 150px;
+}
+.service{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 80px 150px;
+  border: none;
+  border-radius: 10px;
+}
+.icon p{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  color: rgba(39, 39, 39, 0.8);
+}
