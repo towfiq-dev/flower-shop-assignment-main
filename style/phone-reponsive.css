@@ -1,0 +1,60 @@
+@media screen and (max-width:576px) {
+  #section-01{
+  flex-direction: column;
+  padding: 0 20px;
+  padding-top: 40px;
+  gap: 45px;
+  text-align: center;
+}
+.flower-head h2{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.flower-head p{
+  font-size: 15px;
+  line-height: 20px;
+  margin: 20px 0;
+  text-align: justify;
+}
+.btn{
+  font-size: 16px;
+  padding: 15px 30px;
+}
+.rose img{
+  width: 100%;
+}
+/* section-02 */
+#section-02{
+margin: 50px 20px 0 20px;
+}
+.feature h3{
+  font-size: 25px;
+}
+.feature p{
+  font-size: 15px;
+  line-height: 30px;
+}
+.flower{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.flower-card a{
+font-size: 20px;
+line-height: 30px;
+}
+.card{
+  padding-top: 40px;
+  height: 500px;
+  margin-bottom: 15px;
+}
+.card img{
+  width: 100%;
+}
+.card img{
+  margin-top: 40px;
+}
+.abc img{
+  margin-top: 72px;
+}
+}
