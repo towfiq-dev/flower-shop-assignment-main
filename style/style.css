@@ -41,3 +41,55 @@
 .rose img{
   max-width: 630px;
 }
+/* section-02 */
+#section-02{
+margin: 150px 150px 0 150px;
+}
+.feature{
+  text-align: center;
+}
+.feature h3{
+  font-size: 40px;
+  font-weight: 800;
+  color: #272727;
+  margin-bottom: 24px;
+}
+.feature p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #272727;
+}
+.flower{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+.flower-card a{
+font-size: 24px;
+font-weight: bold;
+line-height: 35px;
+color: #272727;
+display: grid;
+text-align: center;
+}
+.card{
+  padding-top: 100px;
+  background-color: rgba(167, 33, 98, 0.15);
+  border: none;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  height: 600px;
+  text-align:center;
+  margin-bottom: 25px;
+}
+.card img{
+  margin-top: 26px;
+}
+.abc img{
+  margin-top: 70px;
+}
